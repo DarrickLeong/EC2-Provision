@@ -8,7 +8,9 @@
   - name: install boto
     pip:
       name: boto
-
+ 
+ #Please change instance_type and image ID if needed
+ #Current version is for JBoss EAP Demo#
   - name: Create AWS Instance
     ec2:
       key_name: dleong
