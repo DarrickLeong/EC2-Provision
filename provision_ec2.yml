@@ -13,7 +13,7 @@
  #Current version is for JBoss EAP Demo#
   - name: Create AWS Instance
     ec2:
-      key_name: dleong
+      key_name: dleong2
       instance_type: t2.small
       image: ami-07cafca3788493264
       wait: yes
