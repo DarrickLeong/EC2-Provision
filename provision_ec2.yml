@@ -17,7 +17,7 @@
       instance_type: t2.small
       image: ami-07cafca3788493264
       wait: yes
-      count: 1
+      count: "{{ count }}"
       vpc_subnet_id: subnet-031c204a
       group: insecure_all
       region: ap-southeast-1
